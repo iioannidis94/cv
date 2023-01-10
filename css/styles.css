@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin-top: 20px;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+.top-container {
+  background-color: #D3DEDC;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+
+
+}
+
+.bottom-container {
+
+
+}
+
+.prog-lang {
+  height: 60px;
+}
+.cloud2 {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+
+}
+.contact {
+  height: 40px;
+}
+
+.certs {
+  height: 40px;
+  width: 50px;
+  position: relative;
+  
+}
+.giphy-embed {
+  width: 20px;
+  height: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 3;
+}
+
+.im-coding {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.certificate-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
