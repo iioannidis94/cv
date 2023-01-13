@@ -145,6 +145,7 @@ hr {
   padding: 50px 0 20px;
   background-color: #7C99AC;
   width: 100%;
+  min-width: 290px;
 }
 .contact-message {
   width: 40%;
