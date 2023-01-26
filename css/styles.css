@@ -1,5 +1,5 @@
 body {
-  margin: auto;
+  margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
   background: #43cea2;  /* fallback for old browsers */
@@ -17,7 +17,7 @@ h1 {
   color: #FFF9F9;
   width: 100%;
   height: 10%;
-
+  padding: 0;
 
 }
 
@@ -35,6 +35,8 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #F3E9DD;
   padding-bottom: 30px;
+  width: 100%;
+
 
 }
 
@@ -45,6 +47,7 @@ a {
 p {
   padding-bottom: 30px;
   width: 100%;
+  min-width: 250px;
   height: 100%;
   line-height: 2;
   color: #EFEFEF;
@@ -59,16 +62,18 @@ hr {
 }
 
 .top-container {
-
+  padding-left: 5%;
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-
+  width: 105%;
+  right: 10%;
+  min-width: 460px;
 }
 
 .cloud1 {
   position: relative;
-  left: 38%;
+  left: 25%;
   top: 10%;
   width: 18%;
   max-width: 12rem;
@@ -76,9 +81,9 @@ hr {
 }
 
 .cloud2 {
+  top: auto;
   position: relative;
   right: 18%;
-  bottom: 30%;
   width: 25%;
   max-width: 25rem;
   min-width: 7rem;
@@ -86,7 +91,7 @@ hr {
 
 .sun {
   position: relative;
-  left: 12%;
+  left: 10%;
   bottom: 15%;
   width: 32%;
   max-width: 40rem;
@@ -97,6 +102,7 @@ hr {
   padding-top: 150px;
   padding-bottom: 100px;
   width: 100%;
+  min-width: 460px;
 
 }
 .pic {
@@ -125,8 +131,9 @@ hr {
 }
 .certs {
   height: auto;
-  width: 10%;
-  max-width: 60px;
+  width: 15%;
+  max-width: 90px;
+  min-width: 60px;
   position: relative;
   left: 60%;
 }
@@ -141,6 +148,63 @@ hr {
 }
 
 
+.card {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  min-width: 120px;
+  height: 254px;
+  border-radius: 4px;
+  background: #43cea2;
+  background: -webkit-linear-gradient(to bottom, #185a9d, #43cea2);
+  background: linear-gradient(to bottom, #185a9d, #43cea2);
+  display: flex;
+  gap: 5px;
+  max-width: 650px;
+
+}
+
+.card p {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: #7DFcDF;
+  border: 1px solid #E3F6FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+}
+
+
+.card p:hover {
+  flex: 4;
+}
+
+.card p span {
+  min-width: 120px;
+  padding: .5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color: #123123;
+  letter-spacing: .1em;
+}
+
+.card p:hover span {
+  transform: rotate(0);
+}
+
+
+.contact-me {
+  align-self: center;
+
+}
+
 .bottom-container {
   padding: 50px 0 20px;
   background-color: #7C99AC;
@@ -150,37 +214,4 @@ hr {
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
-}
-
-.btn {
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #43cea2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #185a9d, #43cea2);
-  text-decoration: none;
-}
-.copyright {
-  width: 2%;
-  height: auto;
-  max-width: 40px;
-}
-.contact-links {
-  width: 17%;
-  max-width: 70px;
-  padding-left: 10px;
 }
